@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Safari Adventures</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Wild Safari</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-center text-white">
+            <h1 class="display-3 fw-bold">Experience the Wild</h1>
+            <p class="lead">Journey into the heart of Sri Lanka's most spectacular landscapes</p>
+            <a href="services.html" class="btn btn-primary btn-lg mt-3">Explore Tours</a>
+        </div>
+    </header>
+
+    <!-- Featured Tours -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Featured Safari Tours</h2>
+                <p class="section-subtitle">Discover our most popular adventures</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card tour-card h-100">
+                        <img src="images/safari1.jpg" class="card-img-top" alt="Great Migration Safari">
+                        <div class="card-body">
+                            <h5 class="card-title">Great Migration Safari</h5>
+                            <p class="card-text">Witness one of nature's greatest spectacles as millions of wildebeest cross the Serengeti.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$2,499</span>
+                                <a href="#" class="btn btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card tour-card h-100">
+                        <img src="images/safari4.jpg" class="card-img-top" alt="Luxury Safari Experience">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Safari Experience</h5>
+                            <p class="card-text">5-star lodges, private guides, and exclusive wildlife viewing opportunities.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$4,999</span>
+                                <a href="#" class="btn btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card tour-card h-100">
+                        <img src="images/safari3.jpg" class="card-img-top" alt="Family Safari Adventure">
+                        <div class="card-body">
+                            <h5 class="card-title">Family Safari Adventure</h5>
+                            <p class="card-text">Specially designed for families with children of all ages.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$3,299</span>
+                                <a href="#" class="btn btn-outline-primary">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="services.html" class="btn btn-primary btn-lg">View All Tours</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">What Our Travelers Say</h2>
+                <p class="section-subtitle">Hear from our safari adventurers</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-content">
+                                        <p>"The Great Migration tour exceeded all our expectations. Our guide was incredibly knowledgeable and we saw all the Big Five!"</p>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <h5>Sarah M</h5>
+                                        <p>New York, USA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-item text-center">
+                                    <div class="testimonial-content">
+                                        <p>"Our family had the most amazing time. The kids loved every minute and we felt completely safe throughout."</p>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <h5>Michael Chen</h5>
+                                        <p>Toronto, Canada</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready for Your Adventure of a Lifetime?</h2>
+            <p class="lead mb-4">Contact us today to start planning your perfect safari experience</p>
+            <a href="contact.html" class="btn btn-light btn-lg">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Wild Safari</h5>
+                    <p>Creating unforgettable Sri Lankan safari experiences since 2020.</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="services.html" class="text-white">Services</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Colombo , Sri Lanka</li>
+                        <li><i class="fas fa-phone me-2"></i> +94 76 694 695 3</li>
+                        <li><i class="fas fa-envelope me-2"></i> sanduntharaka9651@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Wild Safari Adventures. All rights reserved by Sandun.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>         
